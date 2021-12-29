@@ -19,9 +19,10 @@ Software and their versions used in EurekaServiceRegistry:
 3. Start resilience4jDemo
 
 End points to check after starting the servers:
-	http//localhost:8761/eureka/
-	http://localhost:8081/greet/user?username=RameshBotha1
-	http://localhost:8082/circuitbreak/test?username=RameshBotha1
+	http//localhost:8761/
+	http://localhost:8081/greet/user?username=RameshBontha1
+	http://localhost:8082/circuitbreak/test?username=RameshBontha1
 	
 To see the health of the resilience4jDemo application:
 	http//localhost:8082/actuator/health
+	
